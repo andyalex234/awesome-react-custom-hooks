@@ -2,6 +2,7 @@
 import './App.css';
 import ArrayComponent from './components/ArrayComponent';
 import DebounceComponent from './components/DebounceComponent';
+import StateWithHistoryComponent from './components/StateWithHistoryComponent';
 import TimeoutComponent from './components/TimeoutComponent';
 import ToggleComponent from './components/ToggleComponent';
 
@@ -17,6 +18,8 @@ function App() {
       <DebounceComponent />
       <h2>useArray Hook</h2>
       <ArrayComponent/>
+      <h2>useStateWithHistory Hook</h2>
+      <StateWithHistoryComponent />
     </div>
   );
 }
